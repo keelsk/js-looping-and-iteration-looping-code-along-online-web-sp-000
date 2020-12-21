@@ -6,3 +6,10 @@ function writeCards(array, event) {
   }
   return thankYouArray;
 }
+
+function countDown(integer){
+  let i = integer; 
+  while (integer >= 0) {
+    console.log(integer--);
+  }
+}
